@@ -1,0 +1,14 @@
+.table-title{
+    background: #28292a;
+    color: #FFF;
+    padding: 16px 38px;
+}
+.table-backgroundcolor{
+    background: #FFF;
+}
+button{
+    margin: 10px;
+}
+tr{
+    text-align: center;
+}

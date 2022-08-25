@@ -1,0 +1,16 @@
+        <div class="row">
+            <h4>The content of the file must be in the following format with headers:</h4>
+            <b>Name, Address, Phone Number, CURP</b>
+            <hr>
+            <form>
+                <div class="form-group">
+                    <input type="file" class="form-control" id="fileCSV" placeholder="Choose your file CSV" accept=".csv"/>
+                </div>
+            </form>
+            <!--<div *ngFor="let user of uploadData">
+                <p>{{user}}</p>
+            </div>-->
+            <div class="row">
+                <button type="button" class="btn btn-primary" (click)="readFile($event)">Register contacts</button>
+            </div>
+        </div>
